@@ -1,0 +1,11 @@
+
+server:
+  port: 8080
+spring:
+  datasource:
+    name: world
+    url: jdbc:mysql://127.0.0.1:3306/world
+    username: root
+    password: root
+
+
