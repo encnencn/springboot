@@ -40,4 +40,30 @@ public class City {
         this.name = name;
     }
 
+    public String getName(){
+        return this.name;
+    }
+
+    public void setCountryCode(String countryCode){
+        this.countryCode = countryCode;
+    }
+    public String getCountryCode(){
+        return this.countryCode;
+    }
+
+    public void setDistrict(String district){
+
+        this.district = district;
+    }
+    public String getDistrict(){
+        return this.district;
+    }
+    public void setPopulation(String population){
+        this.population = population;
+    }
+
+    public String getPopulation(){
+        return this.population;
+    }
+
 }
