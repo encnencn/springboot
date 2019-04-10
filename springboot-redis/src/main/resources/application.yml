@@ -1,4 +1,4 @@
-#DB
+#DB redis-server.exe redis.windows.conf
 spring:
   redis:
     database: 0
